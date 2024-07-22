@@ -5,6 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>My Learning Journal</title>
 
+  <link rel="icon" href="./assets/image/logo.png">
+  <link rel="apple-touch-icon" href="./assets/image/logo.png">
+
   <link rel="stylesheet" href="./css/font.css">
   <link rel="stylesheet" href="./css/index.css">
 </head>
@@ -18,43 +21,94 @@
       <nav>
         <ul class="menu flex">
           <li class="menu-item">
-            <a href="#" class="menu-cta">home</a>
+            <a href="./pages/hero-post.html" class="menu-cta menu-cta--active">home</a>
           </li>
           <li class="menu-item">
-            <a href="#" class="menu-cta">about me</a>
+            <a href="./pages/about-me.html" class="menu-cta">about me</a>
           </li>
         </ul>
       </nav>
-      <!-- <button type="button">
-        <svg height="21" viewBox="0 0 21 21" width="21" xmlns="http://www.w3.org/2000/svg">
-          <g fill="none" fill-rule="evenodd" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
-            <path d="m4.5 6.5h12" />
-            <path d="m4.498 10.5h11.997" />
-            <path d="m4.5 14.5h11.995" />
-          </g>
-        </svg>
-      </button> -->
     </div>
   </header>
 
   <main class="main">
-    <section class="hero" id="hero"></section>
-
-    <div class="blogs">
-      <div class="container">
-        <div class="blog-container" id="blog-container"></div>
-        <div class="blog-container-cta">
-          <a href="#">View More</a>
+    <a href="./pages/hero-post.html">
+      <section class="hero-section">
+        <div class="hero-content container">
+          <time datetime="2022-07-23" class="hero-date">JULY 23, 2022</time>
+          <h2 class="hero-heading">My new journey as a bootcamp student.</h2>
+          <p class="hero-paragraph">After several months of learning in the Frontend Developer Career Path, I've made the big jump over to the Bootcamp to get expert code reviews of my Solo Projects projects and meet like-minded peers.</p>
         </div>
+      </section>
+    </a>
+
+    <section class="blog-section">
+      <div class="blog-section-content container">
+        <h3 class="section-heading sr-only">Recent posts</h3>
+        <div class="post-container">
+          <article class="post">
+            <img src="../assets/image/image-01.webp" alt="" aria-hidden="true" class="post-picture">
+            <div class="post-content">
+              <time datetime="2022-07-23" class="post-date">JULY 23, 2022</time>
+              <h4 class="post-heading">Blog one</h4>
+              <p class="post-paragraph">I'm excited to start a new learning journey as a Scrimba Bootcamp student! After several months of learning in the Frontend Developer Career Path.</p>
+            </div>
+          </article>
+
+          <article class="post">
+            <img src="../assets/image/image-02.webp" alt="" aria-hidden="true" class="post-picture">
+            <div class="post-content">
+              <time datetime="2022-07-23" class="post-date">JULY 23, 2022</time>
+              <h4 class="post-heading">Blog two</h4>
+              <p class="post-paragraph">I'm excited to start a new learning journey as a Scrimba Bootcamp student! After several months of learning in the Frontend Developer Career Path.</p>
+            </div>
+          </article>
+
+          <article class="post">
+            <img src="../assets/image/image-03.webp" alt="" aria-hidden="true" class="post-picture">
+            <div class="post-content">
+              <time datetime="2022-07-23" class="post-date">JULY 23, 2022</time>
+              <h4 class="post-heading">Blog three</h4>
+              <p class="post-paragraph">I'm excited to start a new learning journey as a Scrimba Bootcamp student! After several months of learning in the Frontend Developer Career Path.</p>
+            </div>
+          </article>
+
+          <article class="post">
+            <img src="../assets/image/image-04.webp" alt="" aria-hidden="true" class="post-picture">
+            <div class="post-content">
+              <time datetime="2022-07-23" class="post-date">JULY 23, 2022</time>
+              <h4 class="post-heading">Blog four</h4>
+              <p class="post-paragraph">I'm excited to start a new learning journey as a Scrimba Bootcamp student! After several months of learning in the Frontend Developer Career Path.</p>
+            </div>
+          </article>
+
+          <article class="post">
+            <img src="../assets/image/image-05.webp" alt="" aria-hidden="true" class="post-picture">
+            <div class="post-content">
+              <time datetime="2022-07-23" class="post-date">JULY 23, 2022</time>
+              <h4 class="post-heading">Blog five</h4>
+              <p class="post-paragraph">I'm excited to start a new learning journey as a Scrimba Bootcamp student! After several months of learning in the Frontend Developer Career Path.</p>
+            </div>
+          </article>
+
+          <article class="post">
+            <img src="../assets/image/image-06.webp" alt="" aria-hidden="true" class="post-picture">
+            <div class="post-content">
+              <time datetime="2022-07-23" class="post-date">JULY 23, 2022</time>
+              <h4 class="post-heading">Blog six</h4>
+              <p class="post-paragraph">I'm excited to start a new learning journey as a Scrimba Bootcamp student! After several months of learning in the Frontend Developer Career Path.</p>
+            </div>
+          </article>
+        </div>
+        <a href="#" class="section-cta">View More</a>
       </div>
-    </div>
+    </section>
   </main>
 
   <footer class="footer">
-    <small>Frontend Career Path by <a href="#" class="attribution-cta" target="_blank" rel="noreferrer">Scrimba</a> - Coded by <a href="#" class="attribution-cta" target="_blank" rel="noreferrer">VIMP</a></small>
+    <small>Frontend Career Path by <a href="https://v2.scrimba.com/courses" class="attribution-cta" target="_blank" rel="noreferrer">Scrimba</a> - Coded by <a href="https://github.com/mendezpvi/fcp-learning-journal" class="attribution-cta" target="_blank" rel="noreferrer">VIMP</a></small>
     <small>Copyright &copy; 2024</small>
   </footer>
 
-  <script type="module" src="./js/index.js"></script>
 </body>
 </html>
