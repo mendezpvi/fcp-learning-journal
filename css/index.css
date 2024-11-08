@@ -44,6 +44,7 @@
   padding-bottom: 3.5em;
   inline-size: 100vw;
   block-size: 50vh;
+  min-block-size: 18.75rem;
   align-items: flex-end;
   color: var(--light);
 }
@@ -309,7 +310,7 @@
     justify-content: center;
     gap: 1.5em;
     font-size: 1.15rem;
-    background-color: var(--dark-medium);
+    background-color: #495057;
     border-radius: 0 0 0 10px;
     z-index: 10;
   }
